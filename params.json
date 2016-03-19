@@ -1,0 +1,6 @@
+{
+  "name": "Jquery-forcetouch",
+  "tagline": "A jQuery library to emulate Apple's force / 3D touch functionality",
+  "body": "# jQuery Force Touch\r\nA jQuery library to emulate Apple's force / 3D touch functionality.\r\n\r\nForce touch can be used to trigger functionality when the user holds down on an element, without breaking any existing `onclick` functionality.\r\n\r\nThe example included displays a preview of the link when it is force touched.\r\n\r\n\r\n## Usage\r\nCall `.forcetouch();` with any of the specified options to enable force touch on the element.\r\n\r\n**Configuration Options**\r\n* `onstart` - Invoked when the force touch is started / triggered.\r\n* `onend` - Invoked when the force touch is ended. \r\n* `delay` - Overrides the default delay of 100ms between a user holding down and the `onstart` event being triggered.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
