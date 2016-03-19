@@ -1,0 +1,101 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400");
+
+body{
+
+	max-width: 840px;
+	margin: 0 auto;
+	padding: 3em;
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11pt;
+
+	background: #48545c;
+	color: rgba(235,235,235,.5);
+
+	line-height: 1.8em;
+
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 300;
+	color: #fff;
+}
+
+
+section{
+	text-align: center;
+}
+
+
+.button{
+	
+	display: inline-block;
+
+    padding: .75em 2em;
+    margin: 2em;
+
+    font-weight: 700;
+    font-size: .9em;
+
+    background: #82b33f;
+    
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #688f32;
+
+    color: #fff;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    transition: background .25s;
+
+}
+
+.button:hover,
+.button:active{
+	background: #688f32;
+}
+
+
+
+body.is-force-touching > *:not(.force-touch-preview-container){
+	-webkit-filter: blur(5px);
+}
+
+.force-touch-preview-container{
+	display: none;
+}
+
+.force-touch-preview-container.active{
+	
+	display: flex;
+
+	position: fixed;
+	top: 2em; left: 2em; bottom: 2em; right: 2em;
+
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.force-touch-preview-frame{
+
+	width: 100%;
+	height: 100%;
+
+	max-width: 640px;
+	max-height: 480px;
+
+	margin: 2em;
+
+	background: #fff;
+	border: .5em solid #fff;
+	border-radius: 5px;
+
+	box-sizing: border-box;
+
+}
